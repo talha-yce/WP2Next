@@ -5,13 +5,13 @@ import CallButton from "@/components/call-button"
 import { contactInfo } from "@/lib/data"
 
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return services.map((service) => ({
     serviceId: service.id,
   }))
 }
 
-export default function ServicePage({ params }: { params: { serviceId: string } }) {
+export default async function ServicePage({ params }: { params: { serviceId: string } }) {
   const service = services.find((s) => s.id === params.serviceId)
 
   if (!service) {
