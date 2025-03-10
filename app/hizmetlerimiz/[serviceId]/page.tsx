@@ -4,14 +4,22 @@ import { services } from "@/lib/data"
 import CallButton from "@/components/call-button"
 import { contactInfo } from "@/lib/data"
 
+// PageProps tipini doğru şekilde tanımlayalım
+type PageProps = {
+  params: {
+    serviceId: string
+  }
+  searchParams?: { [key: string]: string | string[] | undefined }
+}
 
-export function generateStaticParams() {
+// generateStaticParams fonksiyonunu güncelleyelim
+export async function generateStaticParams() {
   return services.map((service) => ({
     serviceId: service.id,
   }))
 }
 
-export default async function ServicePage({ params }: { params: { serviceId: string } }) {
+export default async function ServicePage({ params, searchParams }: PageProps) {
   const service = services.find((s) => s.id === params.serviceId)
 
   if (!service) {
