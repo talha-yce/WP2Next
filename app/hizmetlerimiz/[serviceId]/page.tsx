@@ -5,7 +5,7 @@ import CallButton from "@/components/call-button"
 import { contactInfo } from "@/lib/data"
 
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return services.map((service) => ({
     serviceId: service.id,
   }))
