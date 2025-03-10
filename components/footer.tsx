@@ -8,7 +8,6 @@ export default function Footer() {
   const [isFooterServicesOpen, setIsFooterServicesOpen] = useState(false) 
   const menuRef = useRef<HTMLDivElement | null>(null); 
 
-  
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
@@ -59,13 +58,18 @@ export default function Footer() {
                   <button
                     className="flex items-center hover:underline"
                     onClick={() => setIsFooterServicesOpen(!isFooterServicesOpen)} 
+                    aria-expanded={isFooterServicesOpen ? "true" : "false"}
+                    aria-controls="footer-services-dropdown"
                   >
                     Hizmetlerimiz
                     <ChevronDown size={16} className="ml-1" />
                   </button>
 
                   {isFooterServicesOpen && (
-                    <div className="fixed bottom-0 left-1/2 transform -translate-x-[25%] z-10 w-64 max-h-[calc(100vh-200px)] overflow-y-auto bg-white text-black rounded-md shadow-lg py-1 mt-2">
+                    <div
+                      id="footer-services-dropdown"
+                      className="fixed bottom-0 left-1/2 transform -translate-x-[25%] z-10 w-64 max-h-[calc(100vh-200px)] overflow-y-auto bg-white text-black rounded-md shadow-lg py-1 mt-2"
+                    >
                       <div className="py-1">
                         <Link
                           href="/hizmetlerimiz/buzdolabi-servisi"

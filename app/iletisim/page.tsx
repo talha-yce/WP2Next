@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Phone, Mail } from "lucide-react"
 import { contactInfo } from "@/lib/data"
 import CallButton from "@/components/call-button"
@@ -16,10 +17,14 @@ export default function Contact() {
 
       {/* Breadcrumb */}
       <div className="bg-gray-100 py-3">
-        <div className="container">
-          <p className="text-sm">
-            <span className="text-gray-500">Ana sayfa</span> &gt; <span>İletişim</span>
-          </p>
+      <div className="relative container h-full flex flex-col justify-center">
+          <div className="flex items-center text-sm">
+            <Link href="/" className="hover:text-blue-600">
+              Ana sayfa
+            </Link>
+            <span className="mx-2">»</span>
+            <span>İletişim</span>
+          </div>
         </div>
       </div>
 

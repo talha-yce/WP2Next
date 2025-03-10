@@ -16,24 +16,21 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
-      
       {/* Content */}
-<div className="container relative z-10 text-white flex flex-col items-center justify-center text-center">
-  <div className="max-w-2xl">
-    <h1 className="text-4xl md:text-5xl font-bold mb-4">
-      Bölgesel Beyaz Eşya Servisi
-    </h1>
-    <p className="text-lg mb-8">
-      Bölgesel, beyaz eşya, kombi, klima, kurutma makinesi, buzdolabı, çamaşır makinesi servisi. Yaygın servis ağımız
-      ile ihtiyaçlarınıza en kısa sürede çözüm sunuyoruz, bize ulaşın.
-    </p>
-    <Link href="#" className="btn-primary">
-      İLETİŞİM
-    </Link>
-  </div>
-</div>
-
+      <div className="container relative z-10 text-white flex flex-col items-center justify-center text-center">
+        <div className="max-w-2xl">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Bölgesel Teknik Servis Hizmetleri
+          </h1>
+          <p className="text-lg mb-8">
+            Beyaz eşya, kombi, klima, buzdolabı, çamaşır makinesi ve kurutma makinesi servisleri ile bölgede en hızlı ve güvenilir
+            teknik destek sağlıyoruz. Yüksek kaliteli hizmetimizle, ihtiyaçlarınıza anında çözüm sunuyoruz. Bize ulaşın, hemen yardımcı olalım!
+          </p>
+          <Link href="/iletisim" className="btn-primary">
+            Hemen Bizimle İletişime Geçin
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }
-
