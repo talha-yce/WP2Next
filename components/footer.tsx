@@ -162,6 +162,21 @@ export default function Footer() {
                     Televizyon Servisi
                   </Link>
                 </li>
+                <li>
+                  <Link href="/hizmetlerimiz/kurutma-makinesi-servisi" className="hover:underline">
+                    Kurutma Makinesi Servisi
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/hizmetlerimiz/klima-servisi" className="hover:underline">
+                  Klima Servisi
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/hizmetlerimiz/kombi-servisi" className="hover:underline">
+                  Kombi Servisi
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

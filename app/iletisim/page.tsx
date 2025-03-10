@@ -30,23 +30,14 @@ export default function Contact() {
 
       {/* Content */}
       <div className="container py-12">
-        <div className="flex justify-between space-x-8">
+        <div className="flex-col items-center space-x-8">
           {/* Phone Box */}
-          <div className="bg-white shadow-lg rounded-lg p-6 w-full md:w-%40 flex flex-col items-center">
+          <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
             <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center mb-4">
               <Phone className="text-white" />
             </div>
             <h2 className="text-2xl font-bold">Telefon Numaralarımız</h2>
             <span className="text-lg font-semibold">{contactInfo.phone}</span>
-          </div>
-
-          {/* Email Box */}
-          <div className="bg-white shadow-lg rounded-lg p-6 w-full md:w-%40 flex flex-col items-center">
-            <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center mb-4">
-              <Mail className="text-white" />
-            </div>
-            <h2 className="text-2xl font-bold">E-Posta</h2>
-            <span className="text-lg font-semibold">{contactInfo.email}</span>
           </div>
         </div>
       </div>

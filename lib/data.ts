@@ -21,8 +21,6 @@ export type Brand = {
 
 export type ContactInfo = {
   phone: string
-  email: string
-  address: string
 }
 
 export type CompanyInfo = {
@@ -150,13 +148,14 @@ export const brands: Brand[] = [
   { id: "vaillant", name: "Vaillant", logo: "/images/Vaillant-1.png" },
   { id: "airfel", name: "Airfel", logo: "/images/airfel-logo2.png" },
   { id: "ferroli", name: "Ferroli", logo: "/images/Ferroli_logo-1.png" },
+  { id: "buderus", name: "Buderus", logo: "/images/buderus-1.png" },
+  { id: "eca", name: "ECA", logo: "/images/eca-1.png" },
+
 ]
 
 // Contact information
 export const contactInfo: ContactInfo = {
-  phone: "0322 504 14 84",
-  email: "info@adanamerkezzservisi.com.tr",
-  address: "Adana Merkez",
+  phone: "543 661 28 99",
 }
 
 // Company information

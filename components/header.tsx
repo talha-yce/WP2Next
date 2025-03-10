@@ -18,10 +18,6 @@ export default function Header() {
             <Phone size={16} />
             <span>{contactInfo.phone}</span>
           </div>
-          <div className="flex items-center space-x-2">
-            <Mail size={16} />
-            <span>{contactInfo.email}</span>
-          </div>
         </div>
       </div>
 
