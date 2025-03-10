@@ -37,7 +37,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Company info */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">ADANA TEKNİK SERVİS</h4>
+              <h4 className="text-lg font-semibold mb-4">BÖLGESEL TEKNİK SERVİS</h4>
               <div className="flex items-center mb-2">
                 <Phone size={16} className="mr-2" />
                 <span>{contactInfo.phone}</span>
@@ -163,7 +163,7 @@ export default function Footer() {
           </div>
 
           <div className="mt-8 pt-8 border-t border-blue-800">
-            <p>© 2024 Adana Merkez Servis Tüm Hakları Saklıdır</p>
+            <p>© 2024 Bölgesel Servis Tüm Hakları Saklıdır</p>
           </div>
         </div>
       </div>

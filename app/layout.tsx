@@ -8,9 +8,9 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Adana Geneli Beyaz Eşya Servisi",
+  title: "Bölgesel Beyaz Eşya Servisi",
   description:
-    "Adana'da beyaz eşya, kombi, klima, bulaşık makinesi, çamaşır makinesi ve televizyon teknik servis hizmetleri",
+    "Bölge'de beyaz eşya, kombi, klima, bulaşık makinesi, çamaşır makinesi ve televizyon teknik servis hizmetleri",
 }
 
 export default function RootLayout({

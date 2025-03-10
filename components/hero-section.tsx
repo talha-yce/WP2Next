@@ -21,10 +21,10 @@ export default function HeroSection() {
 <div className="container relative z-10 text-white flex flex-col items-center justify-center text-center">
   <div className="max-w-2xl">
     <h1 className="text-4xl md:text-5xl font-bold mb-4">
-      Adana Geneli Beyaz Eşya Servisi
+      Bölgesel Beyaz Eşya Servisi
     </h1>
     <p className="text-lg mb-8">
-      Adana, beyaz eşya, kombi, klima, kurutma makinesi, buzdolabı, çamaşır makinesi servisi. Yaygın servis ağımız
+      Bölgesel, beyaz eşya, kombi, klima, kurutma makinesi, buzdolabı, çamaşır makinesi servisi. Yaygın servis ağımız
       ile ihtiyaçlarınıza en kısa sürede çözüm sunuyoruz, bize ulaşın.
     </p>
     <Link href="#" className="btn-primary">
