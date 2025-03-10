@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { services } from "@/lib/data"
 import CallButton from "@/components/call-button"
-import { Phone } from "lucide-react"
 import { contactInfo } from "@/lib/data"
 
 

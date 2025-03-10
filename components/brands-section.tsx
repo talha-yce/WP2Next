@@ -26,9 +26,10 @@ export default function BrandsSection() {
         <div className="container">
           <h3 className="text-xl font-semibold mb-4">Şirket politikamız her daim yenilikçi çözümler üretmektir</h3>
           <p className="max-w-3xl">
-            Değişen çevre birimleri ve teknolojik inovasyonların yakından takip eden şirketimiz "Memnuniyetiniz
-            önceliğimizdir" prensibi ile 20 yıldır Adana&apos;da hizmet vermektedir.
+            Değişen çevre birimleri ve teknolojik inovasyonların yakından takip eden şirketimiz &quot;Memnuniyetiniz
+            önceliğimizdir&quot; prensibi ile 20 yıldır Adana&apos;da hizmet vermektedir.
           </p>
+
         </div>
       </div>
     </div>
